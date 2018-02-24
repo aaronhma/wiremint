@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --aot --named-chunks -bh https://aaronhma.github.io/wiremint/",
+    "build": "ng build --prod --aot --named-chunks -bh http://wiremint.com/",
     "deploy:github": "gh-pages -d dist",
     "publish": "npm run build && npm run deploy:github",
     "test": "ng test",
