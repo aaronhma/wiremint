@@ -1,0 +1,59 @@
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark bg-blue scrolling-navbar" [containerInside]="false">
+  <logo>
+    <a class="logo navbar-brand" href="#">
+      <strong>Wiremint&nbsp;<small class="font-size: 0.0px !important;"><small>BETA</small></small></strong>
+    </a>
+  </logo>
+  <links>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" routerLink="/">Home</a>
+      </li>
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" routerLink="/f">Features</a>
+      </li>
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" routerLink="/price">Pricing</a>
+      </li>
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" routerLink="/signup">Sign Up</a>
+      </li>
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" routerLink="/login">Login</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav nav-flex-icons">
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" href="https://www.facebook.com/profile.php?id=100017425847386" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" href="https://twitter.com/aaronhma" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" href="https://www.linkedin.com/in/aaron-ma-b05235159/" target="_blank">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" href="https://github.com/aaronhma" target="_blank">
+          <i class="fa fa-github"></i>
+        </a>
+      </li>
+      <li class="nav-item active waves-light" mdbRippleRadius>
+        <a class="nav-link" href="https://instagram.com/fireboltproducts" target="_blank">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </links>
+</mdb-navbar>
+
+<router-outlet></router-outlet>
+
+<div id="footer">
+  <span>&copy;&nbsp;Copyright 2018 Wiremint.com and Firebolt, Inc. All Rights Reserved.</span>
+</div>
