@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
-import { MatButtonModule, MatDialogModule, MatInputModule } from '@angular/material';
+import { MatButtonModule, MatDialogModule, MatInputModule, MatIconModule, MatIcon } from '@angular/material';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -68,6 +68,7 @@ const appRoutes: Routes = [
     ReactiveFormsModule,
     MatDialogModule,
     MatInputModule,
+    MatIconModule,
     MDBBootstrapModule.forRoot(),
     RouterModule.forRoot(appRoutes)
   ],
@@ -77,7 +78,8 @@ const appRoutes: Routes = [
   exports: [
     MatButtonModule,
     MatDialogModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule
   ],
   entryComponents: [
     LoginPopupComponent

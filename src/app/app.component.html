@@ -21,6 +21,18 @@
       <li class="nav-item active waves-light" mdbRippleRadius>
         <a class="nav-link" routerLink="/login">Login</a>
       </li>
+      <button (click)="changeTheme('white')" mat-raised-button color="primary">
+        White
+      </button>
+      <button (click)="changeTheme('blue')" mat-raised-button color="primary">
+        Blue
+      </button>
+      <button (click)="changeTheme('pink')" mat-raised-button color="primary">
+        Pink
+      </button>
+      <button (click)="changeTheme('indigo')" mat-raised-button color="primary">
+        Indigo
+      </button>
     </ul>
     <ul class="navbar-nav nav-flex-icons">
       <li class="nav-item active waves-light" mdbRippleRadius>
@@ -53,7 +65,3 @@
 </mdb-navbar>
 
 <router-outlet></router-outlet>
-
-<div id="footer">
-  <span>&copy;&nbsp;Copyright 2018 Wiremint.com and Firebolt, Inc. All Rights Reserved.</span>
-</div>
